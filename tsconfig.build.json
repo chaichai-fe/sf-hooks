@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",     // 输入目录
+    "module": "ESNext",
+    "target": "ES5",      // 编译目标
+    "declaration": true,  // 输出类型声明文件
+    "moduleResolution": "Node",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/packages"   // 需要打包的文件
+  ],
+  "exclude": [
+    "src/packages/**/*.test.ts"  // 排除不需要打包的文件
+  ]
+}
