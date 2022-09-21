@@ -16,13 +16,14 @@ import { useTitle } from 'sf-hooks'
 
 ## 🎉 Hooks list
 
-| Hook       | Description                                  |
-| ---------- | -------------------------------------------- |
-| useBoolean | Methods to control a boolean state           |
-| useTitle   | Change the docoment title                    |
-| useTimeout | Trigger callback after specified time        |
-| useMount   | Trigger callback when component is mounted   |
-| useOnMount | Trigger callback when component is unMounted |
+| Hook            | Description                                  |
+| --------------- | -------------------------------------------- |
+| useBoolean      | Methods to control a boolean state           |
+| useTitle        | Change the docoment title                    |
+| useTimeout      | Trigger callback after specified time        |
+| useMount        | Trigger callback when component is mounted   |
+| useOnMount      | Trigger callback when component is unMounted |
+| useLocalStorage | Visit and update local storage               |
 
 ## 🤝 Notice
 
