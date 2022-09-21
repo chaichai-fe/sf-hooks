@@ -1,10 +1,16 @@
-import { useTimeout } from './packages/useTimeout'
+import { useLocalStorage } from './packages'
 
 function App() {
-  useTimeout(()=>{
-    console.log('逻辑执行了');
-  },2000)
-  return <div className="App">this is app</div>
+  const [value, setStorageValue] = useLocalStorage('hook-key', 'cp123')
+  const setClickHandler = () => {
+    setStorageValue('123cp')
+  }
+  return (
+    <div className="App">
+      this is app:{value}
+      <button onClick={setClickHandler}>setStorage</button>
+    </div>
+  )
 }
 
 export default App
