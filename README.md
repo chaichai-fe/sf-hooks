@@ -1,5 +1,3 @@
-
-
 ## 📦 Install
 
 ```bash
@@ -10,17 +8,13 @@ $ yarn add sf-hooks
 $ pnpm add sf-hooks
 ```
 
-
-
 ## 🔨 Usage
 
 ```js
 import { useTitle } from 'sf-hooks'
 ```
 
-
-
-##  🎉  Hooks list
+## 🎉 Hooks list
 
 | Hook       | Description                                  |
 | ---------- | -------------------------------------------- |
@@ -32,4 +26,4 @@ import { useTitle } from 'sf-hooks'
 
 ## 🤝 Notice
 
-> 本项目仅供教学使用, 切勿用于生产,  感谢大家！
+> 本项目仅供教学使用, 切勿用于生产!
